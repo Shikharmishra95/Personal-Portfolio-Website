@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shikhar Mishra | Frontend Developer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ========== Sticky Navbar ========== -->
+  <header class="navbar">
+    <a href="#home" class="logo">SM</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== Hero ========== -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="glow">Shikhar Mishra</span></h1>
+      <p>Frontend Developer | HTML, CSS, JS | <span class="purple">Open to Work</span></p>
+      <a href="#projects" class="btn-glow">View My Work</a>
+    </div>
+    <!-- subtle animated background -->
+    <div class="hero-bg"></div>
+  </section>
+
+  <!-- ========== About ========== -->
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <img src="SHIKHAR PHOTO.jpg" alt="Shikhar Mishra" class="profile-pic glass-card"/>
+      <div class="about-text">
+        <p>
+          I'm a frontend developer passionate about designing clean, user-centric, responsive websites. I have hands-on experience building real-world projects using <strong>HTML, CSS, JavaScript</strong> and I'm currently learning <strong>React</strong>. I'm a fast learner, team player, and open to feedback. I’m currently looking for internship or job opportunities where I can contribute and grow. Available to relocate and join immediately.
+        </p>
+        <ul>
+          <li><strong>Education:</strong> BCA (2025), 7.9 CGPA</li>
+          <li><strong>Traits:</strong> Team Player • Fast Learner • Feedback-Driven</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Skills ========== -->
+  <section id="skills" class="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-card glass-card" data-tooltip="Semantic markup"><i class="fab fa-html5"></i><span>HTML5</span></div>
+      <div class="skill-card glass-card" data-tooltip="Flexbox, Grid & Animations"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="skill-card glass-card" data-tooltip="ES6+, DOM, APIs"><i class="fab fa-js"></i><span>JavaScript</span></div>
+      <div class="skill-card glass-card" data-tooltip="Learning hooks & state"><i class="fab fa-react"></i><span>React</span></div>
+      <div class="skill-card glass-card" data-tooltip="Version control"><i class="fab fa-git-alt"></i><span>Git</span></div>
+      <div class="skill-card glass-card" data-tooltip="Collaboration & CI/CD"><i class="fab fa-github"></i><span>GitHub</span></div>
+      <div class="skill-card glass-card" data-tooltip="UI/UX prototyping"><i class="fab fa-figma"></i><span>Figma</span></div>
+      <div class="skill-card glass-card" data-tooltip="Mobile-first design"><i class="fas fa-mobile-alt"></i><span>Responsive</span></div>
+      <div class="skill-card glass-card" data-tooltip="Zero-config deploys"><i class="fas fa-rocket"></i><span>Vercel/Netlify</span></div>
+    </div>
+  </section>
+
+  <!-- ========== Projects ========== -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+      <!-- Jewellery Website -->
+      <article class="project-card glass-card">
+        <img src="jwel.png" alt="Jewellery Website"/>
+        <h3>Jewellery Website</h3>
+        <p>Luxury e-commerce UI showcasing jewellery collections.</p>
+        <div class="tech">HTML • CSS • JS</div>
+        <div class="links">
+          <a href="https://github.com/Shikharmishra95/Jewellery-website" target="_blank"><i class="fab fa-github"></i> Code</a>
+          <a href="https://jewellery-website-eight.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+        </div>
+      </article>
+
+      <!-- Spotify Clone -->
+      <article class="project-card glass-card">
+        <img src="spotify.png" alt="Spotify Clone"/>
+        <h3>Spotify Clone</h3>
+        <p>Real-time music streaming with modern UI/UX.</p>
+        <div class="tech">HTML • CSS • JS • APIs</div>
+        <div class="links">
+          <a href="https://github.com/Shikharmishra95/spotify" target="_blank"><i class="fab fa-github"></i> Code</a>
+          <a href="https://jewellery-website-eight.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+        </div>
+      </article>
+
+      <!-- Portfolio Website -->
+      <article class="project-card glass-card">
+        <img src="portfolio.png" alt="Portfolio Website"/>
+        <h3>Portfolio Website</h3>
+        <p>Personal brand showcase – this very site.</p>
+        <div class="tech">HTML • CSS • JS</div>
+        <div class="links">
+          <a href="https://github.com/Shikharmishra95" target="_blank"><i class="fab fa-github"></i> Code</a>
+          <span class="soon">Live: Coming Soon</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========== Contact ========== -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-info glass-card">
+      <p><strong>Name:</strong> Shikhar Mishra</p>
+      <p><strong>Email:</strong> <a href="mailto:shikharmishra9532@gmail.com">shikharmishra9532@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+919532399202">+91-9532399202</a></p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/shikhar-mishra-a7b405296/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Shikharmishra95" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+      <a href="mailto:shikharmishra9532@gmail.com" class="btn-glow">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer glass-card">
+    <p>© 2025 Shikhar Mishra. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/shikhar-mishra-a7b405296/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/Shikharmishra95" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top -->
+  <button id="scrollTop" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
